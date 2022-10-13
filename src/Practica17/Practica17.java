@@ -57,6 +57,7 @@ public class Practica17 {
 		modelo.addColumn("Semestre");
 		modelo.addColumn("Promedio");
 		tblRegistroAlumno.setModel(modelo);
+		scroll.setFont(new Font("Agency FB", Font.PLAIN, 26));
 		scroll.setViewportView(tblRegistroAlumno);
 		refrescartabla();
 
@@ -178,7 +179,7 @@ public class Practica17 {
 			}
 		});
 		btnAgregar.setFont(new Font("Tahoma", Font.BOLD, 11));
-		btnAgregar.setBounds(356, 55, 89, 45);
+		btnAgregar.setBounds(355, 55, 89, 45);
 		frame.getContentPane().add(btnAgregar);
 
 	}
