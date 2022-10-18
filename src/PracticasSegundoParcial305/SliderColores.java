@@ -25,9 +25,7 @@ public class SliderColores {
 	private JLabel lblHex;
 	int vRojo,vVerde,vAzul=0;
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -41,9 +39,7 @@ public class SliderColores {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
+	
 	public SliderColores() {
 		initialize();
 	}
